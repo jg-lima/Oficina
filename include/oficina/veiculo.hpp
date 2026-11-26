@@ -20,5 +20,5 @@ protected:
 private:
     std::string placa_;
 };
-std::ostream& operator<<
-(std::ostream& os, const Veiculo& v);   // R12: livre
+
+std::ostream& operator<<(std::ostream& os, const Veiculo& v);   // R12: livre
